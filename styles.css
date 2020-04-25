@@ -1,0 +1,64 @@
+body{
+    background: #0d1521;
+    font-family: tahoma;
+    color: #989898;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#searchGIF {
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#searchGIF div {
+    width: 100%;
+}
+
+#searchString {
+    box-sizing: border-box;
+}
+
+.img-list {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 20px;
+    background:#181c22;
+    border: 0;
+    font-size: 20px;
+    color: #989898;
+    outline: none;
+}
+
+button{
+    padding: 20px;
+    width: 30%;
+    background: #23282e;
+    border: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    outline: none;
+}
+
+button:hover {
+    background: #1e2227;
+}
+
+.img {
+    max-width: 480px;
+    margin-bottom: 10px;
+}
