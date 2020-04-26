@@ -77,3 +77,4 @@ document.addEventListener('DOMContentLoaded', function () {
         // очищаем инпут
         input.value = '';
     });
+});
